@@ -40,4 +40,4 @@ jobs:
     - name: Installing Surge
       run: sudo npm install -g surge
     - name: Deploying....
-      run: sudo surge ./build https://React-TypeScript-Quiz-App.surge.sh --token ${{secrets.SURGE_KEY}}
+      run: sudo surge ./build https://Quiz-App-AbdulRahim.surge.sh --token ${{secrets.SURGE_KEY}}
