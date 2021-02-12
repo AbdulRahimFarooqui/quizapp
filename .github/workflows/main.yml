@@ -33,7 +33,7 @@ jobs:
          cmd: install #Setting up dependencies for our react app by installing yarn
     - name: Bulding...
       
-      run: CI=false yarn build
+      run: sudo CI=false yarn build
 
 
     # Runs a set of commands using the runners shell
